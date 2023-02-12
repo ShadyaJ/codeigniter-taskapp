@@ -1,0 +1,174 @@
+CRITICAL - 2023-02-01 04:10:47 --> Invalid file: Profileimage/edit.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Profileimage.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\ProfileImage->getEdit()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-02-01 04:23:41 --> No file was uploaded.
+in APPPATH/Controllers/Profileimage.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Profileimage->postUpdate()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-02-01 04:24:15 --> No file was uploaded.
+in APPPATH/Controllers/Profileimage.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Profileimage->postUpdate()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-02-01 04:26:44 --> No file was uploaded. 4
+in APPPATH/Controllers/Profileimage.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Profileimage->postUpdate()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-02-01 04:27:35 --> No file was uploaded.Error Code: 4
+in APPPATH/Controllers/Profileimage.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Profileimage->postUpdate()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-02-01 04:27:44 --> No file was uploaded. Error Code: 4
+in APPPATH/Controllers/Profileimage.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Profileimage->postUpdate()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-02-01 04:27:50 --> No file was uploaded. Error Code : 4
+in APPPATH/Controllers/Profileimage.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Profileimage->postUpdate()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-02-01 04:27:56 --> No file was uploaded. Error Code: 4
+in APPPATH/Controllers/Profileimage.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Profileimage->postUpdate()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-02-01 04:28:10 --> No file was uploaded.<br> Error Code: 4
+in APPPATH/Controllers/Profileimage.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Profileimage->postUpdate()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-02-01 04:28:16 --> No file was uploaded. Error Code: 4
+in APPPATH/Controllers/Profileimage.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Profileimage->postUpdate()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-02-01 05:43:52 --> The framework needs the following extension(s) installed and loaded: GD.
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 54.
+ 1 SYSTEMPATH/Images/Handlers/GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+ 2 SYSTEMPATH/Config/Services.php(337): CodeIgniter\Images\Handlers\GDHandler->__construct()
+ 3 SYSTEMPATH/Config/BaseService.php(253): CodeIgniter\Config\Services::image()
+ 4 SYSTEMPATH/Config/BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic()
+ 5 SYSTEMPATH/Config/Services.php(330): CodeIgniter\Config\BaseService::getSharedInstance()
+ 6 SYSTEMPATH/Config/BaseService.php(253): CodeIgniter\Config\Services::image()
+ 7 SYSTEMPATH/Common.php(959): CodeIgniter\Config\BaseService::__callStatic()
+ 8 APPPATH/Controllers/Profileimage.php(53): service()
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Profileimage->postUpdate()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-02-01 05:47:58 --> The framework needs the following extension(s) installed and loaded: GD.
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 54.
+ 1 SYSTEMPATH/Images/Handlers/GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+ 2 SYSTEMPATH/Config/Services.php(337): CodeIgniter\Images\Handlers\GDHandler->__construct()
+ 3 SYSTEMPATH/Config/BaseService.php(253): CodeIgniter\Config\Services::image()
+ 4 SYSTEMPATH/Config/BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic()
+ 5 SYSTEMPATH/Config/Services.php(330): CodeIgniter\Config\BaseService::getSharedInstance()
+ 6 SYSTEMPATH/Config/BaseService.php(253): CodeIgniter\Config\Services::image()
+ 7 SYSTEMPATH/Common.php(959): CodeIgniter\Config\BaseService::__callStatic()
+ 8 APPPATH/Controllers/Profileimage.php(53): service()
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Profileimage->postUpdate()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-02-01 05:51:33 --> The framework needs the following extension(s) installed and loaded: GD.
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 54.
+ 1 SYSTEMPATH/Images/Handlers/GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+ 2 SYSTEMPATH/Config/Services.php(337): CodeIgniter\Images\Handlers\GDHandler->__construct()
+ 3 SYSTEMPATH/Config/BaseService.php(253): CodeIgniter\Config\Services::image()
+ 4 SYSTEMPATH/Config/BaseService.php(194): CodeIgniter\Config\BaseService::__callStatic()
+ 5 SYSTEMPATH/Config/Services.php(330): CodeIgniter\Config\BaseService::getSharedInstance()
+ 6 SYSTEMPATH/Config/BaseService.php(253): CodeIgniter\Config\Services::image()
+ 7 SYSTEMPATH/Common.php(959): CodeIgniter\Config\BaseService::__callStatic()
+ 8 APPPATH/Controllers/Profileimage.php(53): service()
+ 9 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Profileimage->postUpdate()
+10 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-02-01 09:44:51 --> Undefined property: App\Controllers\Profileimage::$user
+in APPPATH/Controllers/Profileimage.php on line 74.
+ 1 APPPATH/Controllers/Profileimage.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Profileimage->getImage()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-02-01 09:45:44 --> readfile(/home/shadya/projects/codeigniter4-training/taskapp/writable/uploads/profile_images/1675238890_d5f3d19e0e7b4bb19b3d.png): Failed to open stream: No such file or directory
+in APPPATH/Controllers/Profile.php on line 132.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(132): readfile()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Profile->getImage()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-02-01 11:21:45 --> filesize(): stat failed for image/jpeg; charset=binary
+in APPPATH/Controllers/Profile.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(137): filesize()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Profile->getImage()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-02-01 11:22:45 --> filesize(): stat failed for image/jpeg; charset=binary
+in APPPATH/Controllers/Profile.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(137): filesize()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Profile->getImage()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-02-01 11:24:07 --> filesize(): stat failed for image/jpeg; charset=binary
+in APPPATH/Controllers/Profile.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(137): filesize()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Profile->getImage()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-02-01 11:26:34 --> Undefined property: CodeIgniter\View\View::$user
+in APPPATH/Views/Profile/show.php on line 11.
+ 1 APPPATH/Views/Profile/show.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/Profile/show.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Profile.php(17): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Profile->getShow()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')

@@ -1,0 +1,204 @@
+ERROR - 2023-01-21 04:18:38 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-21 04:18:38 --> 220 smtp-relay.sendinblue.com ESMTP Sendinblue SMTP 2.0
+
+hello: 250-smtp-relay.sendinblue.com Nice to meet you, [161.142.158.176]
+250-PIPELINING
+250-8BITMIME
+250-AUTH LOGIN PLAIN CRAM-MD5
+250 STARTTLS
+
+starttls: 220 Ready to start TLS
+
+hello: 250-smtp-relay.sendinblue.com Nice to meet you, [161.142.158.176]
+250-PIPELINING
+250-8BITMIME
+250 AUTH LOGIN PLAIN CRAM-MD5
+
+from: 250 Accepted
+
+to: 250 Accepted
+
+data: 354 End data with <CR><LF>.<CR><LF>
+
+450 Your SMTP account is not yet activated. Please contact us at contact@sendinblue.com to request activation.
+
+quit: 221 Bye
+
+The following SMTP error was encountered: 450 Your SMTP account is not yet activated. Please contact us at contact@sendinblue.com to request activation.
+
+ERROR - 2023-01-21 04:22:08 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-21 04:22:08 --> 220 smtp-relay.sendinblue.com ESMTP Sendinblue SMTP 2.0
+
+hello: 250-smtp-relay.sendinblue.com Nice to meet you, [161.142.158.176]
+250-PIPELINING
+250-8BITMIME
+250-AUTH LOGIN PLAIN CRAM-MD5
+250 STARTTLS
+
+starttls: 220 Ready to start TLS
+
+hello: 250-smtp-relay.sendinblue.com Nice to meet you, [161.142.158.176]
+250-PIPELINING
+250-8BITMIME
+250 AUTH LOGIN PLAIN CRAM-MD5
+
+from: 250 Accepted
+
+to: 250 Accepted
+
+data: 354 End data with <CR><LF>.<CR><LF>
+
+450 Your SMTP account is not yet activated. Please contact us at contact@sendinblue.com to request activation.
+
+quit: 221 Bye
+
+The following SMTP error was encountered: 450 Your SMTP account is not yet activated. Please contact us at contact@sendinblue.com to request activation.
+
+ERROR - 2023-01-21 04:22:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-21 04:22:34 --> 220 smtp-relay.sendinblue.com ESMTP Sendinblue SMTP 2.0
+
+hello: 250-smtp-relay.sendinblue.com Nice to meet you, [161.142.158.176]
+250-PIPELINING
+250-8BITMIME
+250-AUTH LOGIN PLAIN CRAM-MD5
+250 STARTTLS
+
+starttls: 220 Ready to start TLS
+
+hello: 250-smtp-relay.sendinblue.com Nice to meet you, [161.142.158.176]
+250-PIPELINING
+250-8BITMIME
+250 AUTH LOGIN PLAIN CRAM-MD5
+
+from: 250 Accepted
+
+to: 250 Accepted
+
+data: 354 End data with <CR><LF>.<CR><LF>
+
+450 Your SMTP account is not yet activated. Please contact us at contact@sendinblue.com to request activation.
+
+quit: 221 Bye
+
+The following SMTP error was encountered: 450 Your SMTP account is not yet activated. Please contact us at contact@sendinblue.com to request activation.
+
+ERROR - 2023-01-21 04:22:47 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-21 04:22:47 --> 220 smtp-relay.sendinblue.com ESMTP Sendinblue SMTP 2.0
+
+hello: 250-smtp-relay.sendinblue.com Nice to meet you, [161.142.158.176]
+250-PIPELINING
+250-8BITMIME
+250-AUTH LOGIN PLAIN CRAM-MD5
+250 STARTTLS
+
+starttls: 220 Ready to start TLS
+
+hello: 250-smtp-relay.sendinblue.com Nice to meet you, [161.142.158.176]
+250-PIPELINING
+250-8BITMIME
+250 AUTH LOGIN PLAIN CRAM-MD5
+
+from: 250 Accepted
+
+to: 250 Accepted
+
+data: 354 End data with <CR><LF>.<CR><LF>
+
+450 Your SMTP account is not yet activated. Please contact us at contact@sendinblue.com to request activation.
+
+quit: 221 Bye
+
+The following SMTP error was encountered: 450 Your SMTP account is not yet activated. Please contact us at contact@sendinblue.com to request activation.
+
+ERROR - 2023-01-21 04:40:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-21 04:40:53 --> 220 smtp.gmail.com ESMTP l5-20020a170902f68500b00189c62eac37sm17686884plg.32 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [161.142.158.176]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [161.142.158.176]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor l5-20020a170902f68500b00189c62eac37sm17686884plg.32 - gsmtp
+
+ERROR - 2023-01-21 04:44:32 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-21 04:44:32 --> 220 smtp.gmail.com ESMTP nh15-20020a17090b364f00b0020ae09e9724sm2316525pjb.53 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [161.142.158.176]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [161.142.158.176]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor nh15-20020a17090b364f00b0020ae09e9724sm2316525pjb.53 - gsmtp
+
+ERROR - 2023-01-21 05:27:14 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-21 05:27:14 --> 220 smtp.gmail.com ESMTP 3-20020a621503000000b00581c741f95csm25170957pfv.46 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [161.142.158.176]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [161.142.158.176]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 3-20020a621503000000b00581c741f95csm25170957pfv.46 - gsmtp
+
+CRITICAL - 2023-01-21 08:33:34 --> Too few arguments to function App\Controllers\Signup::getActivate(), 0 passed in /home/shadya/projects/codeigniter4-training/taskapp/vendor/codeigniter4/framework/system/CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH/Controllers/Signup.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Signup->getActivate()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-21 08:40:26 --> Too few arguments to function App\Controllers\Signup::activate(), 0 passed in /home/shadya/projects/codeigniter4-training/taskapp/vendor/codeigniter4/framework/system/CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH/Controllers/Signup.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Signup->activate()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')

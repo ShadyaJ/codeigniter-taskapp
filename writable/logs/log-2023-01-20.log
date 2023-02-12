@@ -1,0 +1,84 @@
+ERROR - 2023-01-20 11:56:10 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-20 11:56:10 --> 220 smtp-relay.sendinblue.com ESMTP Sendinblue SMTP 2.0
+
+hello: 250-smtp-relay.sendinblue.com Nice to meet you, [161.142.158.176]
+250-PIPELINING
+250-8BITMIME
+250-AUTH LOGIN PLAIN CRAM-MD5
+250 STARTTLS
+
+starttls: 220 Ready to start TLS
+
+hello: 250-smtp-relay.sendinblue.com Nice to meet you, [161.142.158.176]
+250-PIPELINING
+250-8BITMIME
+250 AUTH LOGIN PLAIN CRAM-MD5
+
+from: 250 Accepted
+
+to: 250 Accepted
+
+data: 354 End data with <CR><LF>.<CR><LF>
+
+450 Your SMTP account is not yet activated. Please contact us at contact@sendinblue.com to request activation.
+
+quit: 221 Bye
+
+The following SMTP error was encountered: 450 Your SMTP account is not yet activated. Please contact us at contact@sendinblue.com to request activation.
+
+ERROR - 2023-01-20 12:00:03 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-20 12:00:03 --> 220 smtp-relay.sendinblue.com ESMTP Sendinblue SMTP 2.0
+
+hello: 250-smtp-relay.sendinblue.com Nice to meet you, [161.142.158.176]
+250-PIPELINING
+250-8BITMIME
+250-AUTH LOGIN PLAIN CRAM-MD5
+250 STARTTLS
+
+starttls: 220 Ready to start TLS
+
+hello: 250-smtp-relay.sendinblue.com Nice to meet you, [161.142.158.176]
+250-PIPELINING
+250-8BITMIME
+250 AUTH LOGIN PLAIN CRAM-MD5
+
+from: 250 Accepted
+
+to: 250 Accepted
+
+data: 354 End data with <CR><LF>.<CR><LF>
+
+450 Your SMTP account is not yet activated. Please contact us at contact@sendinblue.com to request activation.
+
+quit: 221 Bye
+
+The following SMTP error was encountered: 450 Your SMTP account is not yet activated. Please contact us at contact@sendinblue.com to request activation.
+
+ERROR - 2023-01-20 12:02:52 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-20 12:02:52 --> 220 smtp-relay.sendinblue.com ESMTP Sendinblue SMTP 2.0
+
+hello: 250-smtp-relay.sendinblue.com Nice to meet you, [161.142.158.176]
+250-PIPELINING
+250-8BITMIME
+250-AUTH LOGIN PLAIN CRAM-MD5
+250 STARTTLS
+
+starttls: 220 Ready to start TLS
+
+hello: 250-smtp-relay.sendinblue.com Nice to meet you, [161.142.158.176]
+250-PIPELINING
+250-8BITMIME
+250 AUTH LOGIN PLAIN CRAM-MD5
+
+from: 250 Accepted
+
+to: 250 Accepted
+
+data: 354 End data with <CR><LF>.<CR><LF>
+
+450 Your SMTP account is not yet activated. Please contact us at contact@sendinblue.com to request activation.
+
+quit: 221 Bye
+
+The following SMTP error was encountered: 450 Your SMTP account is not yet activated. Please contact us at contact@sendinblue.com to request activation.
+

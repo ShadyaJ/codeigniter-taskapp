@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1670921689;_ci_previous_url|s:34:"http://localhost:8080/login/create";_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:2:{s:5:"email";s:14:"hello@kdkd.com";s:8:"password";s:8:"jkasjdak";}}__ci_vars|a:2:{s:13:"_ci_old_input";s:3:"new";s:7:"warning";s:3:"new";}warning|s:13:"Invalid login";

@@ -1,0 +1,27 @@
+CRITICAL - 2023-02-02 07:47:53 --> filesize(): stat failed for image/jpeg; charset=binary
+in APPPATH/Controllers/Profile.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Profile.php(137): filesize()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Profile->getImage()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-02-02 09:09:13 --> Undefined property: App\Controllers\Profileimage::$user
+in APPPATH/Controllers/Profileimage.php on line 81.
+ 1 APPPATH/Controllers/Profileimage.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Profileimage->postDelete()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-02-02 11:28:13 --> Class "App\Librairies\Token" not found
+in APPPATH/Models/RememberedLoginModel.php on line 15.
+ 1 APPPATH/Libraries/Authentication.php(84): App\Models\RememberedLoginModel->rememberUserLogin()
+ 2 APPPATH/Libraries/Authentication.php(39): App\Libraries\Authentication->rememberLogin()
+ 3 APPPATH/Controllers/Login.php(20): App\Libraries\Authentication->login()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->postCreate()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')

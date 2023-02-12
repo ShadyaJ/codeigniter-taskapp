@@ -1,0 +1,60 @@
+CRITICAL - 2022-12-18 11:50:39 --> Undefined constant "App\Controllers\session"
+in APPPATH/Controllers/Login.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->postCreate()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-18 11:55:48 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #1 ($uri) must be of type string, null given, called in /home/shadya/projects/codeigniter4-training/taskapp/app/Controllers/Login.php on line 25
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 32.
+ 1 APPPATH/Controllers/Login.php(25): CodeIgniter\HTTP\RedirectResponse->to()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Login->postCreate()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-18 15:14:18 --> Cannot redeclare App\Models\TaskModel::getTaskByUserId()
+in APPPATH/Models/TaskModel.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-18 15:14:31 --> Too few arguments to function App\Models\TaskModel::getTaskByUserId(), 1 passed in /home/shadya/projects/codeigniter4-training/taskapp/app/Controllers/Tasks.php on line 22 and exactly 2 expected
+in APPPATH/Models/TaskModel.php on line 27.
+ 1 APPPATH/Controllers/Tasks.php(22): App\Models\TaskModel->getTaskByUserId()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Tasks->getIndex()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-18 15:14:55 --> Cannot redeclare App\Models\TaskModel::getTaskByUserId()
+in APPPATH/Models/TaskModel.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-18 15:16:05 --> Too few arguments to function App\Models\TaskModel::getTaskByUserId(), 1 passed in /home/shadya/projects/codeigniter4-training/taskapp/app/Controllers/Tasks.php on line 22 and exactly 2 expected
+in APPPATH/Models/TaskModel.php on line 25.
+ 1 APPPATH/Controllers/Tasks.php(22): App\Models\TaskModel->getTaskByUserId()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Tasks->getIndex()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-18 16:00:53 --> Undefined variable $current_user
+in APPPATH/Controllers/Tasks.php on line 21.
+ 1 APPPATH/Controllers/Tasks.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Tasks->getIndex()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-18 20:07:32 --> Class "App\Controllers\Admin\BaseController" not found
+in APPPATH/Controllers/Admin/Users.php on line 5.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(282): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/Router/AutoRouterImproved.php(264): class_exists()
+ 6 SYSTEMPATH/Router/AutoRouterImproved.php(115): CodeIgniter\Router\AutoRouterImproved->scanControllers()
+ 7 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouterImproved->getRoute()
+ 8 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute()
+ 9 SYSTEMPATH/CodeIgniter.php(802): CodeIgniter\Router\Router->handle()
+10 SYSTEMPATH/CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt()
+11 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')

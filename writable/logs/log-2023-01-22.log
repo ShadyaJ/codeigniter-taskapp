@@ -1,0 +1,28 @@
+CRITICAL - 2023-01-22 09:13:42 --> Too few arguments to function App\Controllers\Signup::getActivate(), 0 passed in /home/shadya/projects/codeigniter4-training/taskapp/vendor/codeigniter4/framework/system/CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH/Controllers/Signup.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Signup->getActivate()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-22 09:39:53 --> Too few arguments to function App\Controllers\Signup::getSuccess(), 0 passed in /home/shadya/projects/codeigniter4-training/taskapp/vendor/codeigniter4/framework/system/CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH/Controllers/Signup.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Signup->getSuccess()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-22 09:40:12 --> Too few arguments to function App\Controllers\Signup::getSuccess(), 0 passed in /home/shadya/projects/codeigniter4-training/taskapp/vendor/codeigniter4/framework/system/CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH/Controllers/Signup.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Signup->getSuccess()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-01-22 09:40:24 --> Too few arguments to function App\Controllers\Signup::getSuccess(), 0 passed in /home/shadya/projects/codeigniter4-training/taskapp/vendor/codeigniter4/framework/system/CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH/Controllers/Signup.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Signup->getSuccess()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')

@@ -1,0 +1,27 @@
+CRITICAL - 2023-02-06 01:17:26 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /home/shadya/projects/codeigniter4-training/taskapp/vendor/codeigniter4/framework/system/Model.php on line 772
+in SYSTEMPATH/Database/BaseBuilder.php on line 954.
+ 1 SYSTEMPATH/Model.php(772): CodeIgniter\Database\BaseBuilder->like()
+ 2 APPPATH/Models/TaskModel.php(43): CodeIgniter\Model->__call()
+ 3 APPPATH/Controllers/Tasks.php(120): App\Models\TaskModel->search()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Tasks->getSearch()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-02-06 01:17:41 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in /home/shadya/projects/codeigniter4-training/taskapp/vendor/codeigniter4/framework/system/Model.php on line 772
+in SYSTEMPATH/Database/BaseBuilder.php on line 954.
+ 1 SYSTEMPATH/Model.php(772): CodeIgniter\Database\BaseBuilder->like()
+ 2 APPPATH/Models/TaskModel.php(43): CodeIgniter\Model->__call()
+ 3 APPPATH/Controllers/Tasks.php(120): App\Models\TaskModel->search()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Tasks->getSearch()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2023-02-06 01:28:18 --> Call to undefined method CodeIgniter\HTTP\Response::getContentType()
+in APPPATH/Controllers/Tasks.php on line 122.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Tasks->getSearch()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')

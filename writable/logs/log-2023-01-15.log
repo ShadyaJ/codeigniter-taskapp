@@ -1,0 +1,8 @@
+CRITICAL - 2023-01-15 14:41:20 --> Attempt to read property "is_admin" on null
+in APPPATH/Filters/AdminFilter.php on line 15.
+ 1 APPPATH/Filters/AdminFilter.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Filters/Filters.php(173): App\Filters\AdminFilter->before()
+ 3 SYSTEMPATH/CodeIgniter.php(455): CodeIgniter\Filters\Filters->run()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
